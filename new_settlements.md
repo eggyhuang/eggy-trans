@@ -20,7 +20,7 @@
 ## 如何在游戏中重载一个定居点
 从沙盒模组中建立一个定居点它很可能会重载之前对这个定居点的定义.但是这些改变并不会添加(译者注:原文是append(add)写法,认为是比喻append函数那样添加到列表)到文件中,所以如果改定居点参数之类的话得全盘皆改.
 
-先复制替换Modules/SandBox/ModuleData/settlements.xml文件到Modules/对应Mod文件夹/ModuleData/settlements.xml中, Modules/SandBox/SceneObj/Main_map(文件夹)复制替换Modules/Y对应Mod文件夹/SceneObj/Main_map.
+先复制替换Modules/SandBox/ModuleData/settlements.xml文件到Modules/对应Mod文件夹/ModuleData/settlements.xml中, Modules/SandBox/SceneObj/Main_map(文件夹)复制替换Modules/对应Mod文件夹/SceneObj/Main_map.
 
 如果可以的话,用对XML编辑兼容性更好的工具最好,比如Notepad++就好过记事本.
 在Modules/对应Mod文件夹/submodule.xml中添加以下XML节点代码<XmlNode>
